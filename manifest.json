@@ -1,0 +1,41 @@
+
+{
+    "name": "40 Rabbana Dua",
+    "short_name": "40 Rabbana Dua",
+    "lang": "en-US",
+    "start_url": "index.html",
+    "display": "standalone",
+    "theme_color": "#007c82",
+    "background_color": "#FFFFFF",
+    "icons": [{
+        "src": "rabbana.png",
+          "sizes": "128x128",
+          "type": "image/png"
+        }, {
+          "src": "rabbana.png",
+          "sizes": "144x144",
+          "type": "image/png"
+        }, {
+          "src": "rabbana.png",
+          "sizes": "152x152",
+          "type": "image/png"
+        }, {
+          "src": "rabbana.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+            "src": "rabbana.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "any maskable"
+          }, {
+          "src": "rabbana.png",
+          "sizes": "256x256",
+          "type": "image/png"
+        }, {
+          "src": "rabbana.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }]
+}
