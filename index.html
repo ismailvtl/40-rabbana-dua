@@ -20,6 +20,17 @@
     <meta name="msapplication-TileImage" content="rabbana.png">
     <meta name="msapplication-TileColor" content="#01675F">
     <link rel="stylesheet" href="style.css?v=3">
+    
+ <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6C4EBSR56J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6C4EBSR56J');
+</script>
+    
 </head>
 <body>
     <div class="dua-container">
@@ -147,47 +158,7 @@
     checkTransliterationLocalStorage();
 
 
-    // audioEl.addEventListener('playing', function(){
-    //     setInterval(function(){
-    //         if (!audioEl.paused) {
-    //             if (audioEl.currentTime >= 13 && audioEl.currentTime < 23) {
-    //                 clearAllHighlight();
-    //                 document.querySelectorAll('.dua-list-item')[0].style.background = "#eeffef";
-    //                 document.querySelectorAll('.dua-list-item')[0].scrollIntoView({"behavior" : "smooth", "block" : "center"})
-                    
-    //             } else if (audioEl.currentTime >= 23 && audioEl.currentTime < 50) {
-    //                 clearAllHighlight();
-    //                 document.querySelectorAll('.dua-list-item')[1].style.background = "#eeffef";
-    //                 document.querySelectorAll('.dua-list-item')[1].scrollIntoView({"behavior" : "smooth", "block" : "center"})
-    //             }
-    //             else if (audioEl.currentTime >= 50 && audioEl.currentTime < 64) {
-    //                 clearAllHighlight();
-    //                 document.querySelectorAll('.dua-list-item')[2].style.background = "#eeffef";
-    //                 document.querySelectorAll('.dua-list-item')[2].scrollIntoView({"behavior" : "smooth", "block" : "center"})
-    //             }
-    //             else if (audioEl.currentTime >= 64 && audioEl.currentTime < 75) {
-    //                 clearAllHighlight();
-    //                 document.querySelectorAll('.dua-list-item')[3].style.background = "#eeffef";
-    //                 document.querySelectorAll('.dua-list-item')[3].scrollIntoView({"behavior" : "smooth", "block" : "center"})
-    //             } 
-    //             else if (audioEl.currentTime >= 75 && audioEl.currentTime < 73) {
-    //                 clearAllHighlight();
-    //                 document.querySelectorAll('.dua-list-item')[3].style.background = "#eeffef";
-    //                 document.querySelectorAll('.dua-list-item')[3].scrollIntoView({"behavior" : "smooth", "block" : "center"})
-    //             }
-    //             else {
-    //                 clearAllHighlight();
-    //             }
-    //         }
-    //     }, 100)
-    // });
-
-    // function clearAllHighlight() {
-    //     document.querySelectorAll('.dua-list-item').forEach(function(item) {
-    //         item.style.background = "none";
-    //     })
-    // }
-
+ 
  function scrollPercentage() {
   return (
     (document.querySelector('main').scrollTop + document.body.scrollTop) /
