@@ -315,7 +315,7 @@
                             const position = element.getBoundingClientRect()?.top + window.scrollY;
                             if (position !== undefined) {
                                 clearAllHighlight();
-                                element.scrollIntoView({ block: "center", behavior: "smooth" })
+                                element.scrollIntoView({ block: "top", behavior: "smooth" })
                                 element.classList.add('highlight-item');
                                 break;
                             }
