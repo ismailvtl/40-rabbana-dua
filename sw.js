@@ -1,4 +1,4 @@
-var CACHE_NAME = 'rabanaDua-V1';
+var CACHE_NAME = 'rabanaDua-V3';
 var urlsToCache = [
   '/',
   '/rabbana.png'
@@ -30,7 +30,7 @@ self.addEventListener('fetch', function(event) {
 });
 
 self.addEventListener('activate', function(event) {
-  var cacheWhitelist = ['rabanaDua-V1'];
+  var cacheWhitelist = ['rabanaDua-V3'];
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
       return Promise.all(
