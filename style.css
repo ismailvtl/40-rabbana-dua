@@ -272,3 +272,19 @@ footer:after {
     font-weight: 400;
     color: #545454;
 }
+
+.dua-list-item:after {
+    content: attr(data-num);
+    position: absolute;
+    color: #999;
+    font-size: 12px;
+}
+
+.highlight-item {
+    background: #F0F4F5;
+   
+}
+
+.highlight-item .dua-list-item-arabic {
+    color: #053f3a;
+}
