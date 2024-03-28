@@ -288,3 +288,93 @@ footer:after {
 .highlight-item .dua-list-item-arabic {
     color: #053f3a;
 }
+
+
+div#handleFontSize {
+    background: none;
+    border: 0;
+    font-size: 16px;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px 10px;
+    width: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+    gap: 8px;
+}
+
+div#handleFontSize .font-size {
+    display: flex;
+    gap: 8px;
+    flex: 1;
+}
+
+div#handleFontSize .font-size button {
+    background: #ebe8e8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+
+.dua-list.standard .dua-list-item-arabic {
+    font-size: 30px;
+    line-height: 46px;
+}
+
+.dua-list.medium .dua-list-item-arabic {
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.dua-list.large .dua-list-item-arabic {
+    font-size: 50px;
+    line-height: 66px;
+}
+
+
+.dua-list.standard .dua-list-item-translation, .dua-list.standard .dua-list-item-transliteration {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.dua-list.medium .dua-list-item-translation, .dua-list.medium .dua-list-item-transliteration {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.dua-list.large .dua-list-item-translation, .dua-list.large .dua-list-item-transliteration {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+.dua-list.standard .dua-list-item-quran-reference, .dua-list.standard .dua-list-item:after {
+    font-size: 12px;
+}
+
+.dua-list.medium .dua-list-item-quran-reference, .dua-list.medium .dua-list-item:after {
+    font-size: 14px;
+}
+
+.dua-list.large .dua-list-item-quran-reference, .dua-list.large .dua-list-item:after {
+    font-size: 16px;
+}
+
+.font-size button.active {
+    color: #333;
+    border: 1px solid #333;
+    background: #FFF !important;
+}
+
+.options ul button div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.options ul button div span:nth-child(2) {
+    font-weight: 600;
+}
